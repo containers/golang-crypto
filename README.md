@@ -1,20 +1,10 @@
-# Go Cryptography
+# Notice
 
-[![Go Reference](https://pkg.go.dev/badge/golang.org/x/crypto.svg)](https://pkg.go.dev/golang.org/x/crypto)
+This is a temporary fork of [golang/crypto](https://github.com/golang/crypto) and
+should not be relied on for downstream work.  This fork was specifically created
+only to address module reference challenges with respect to fixes for CVE-2025-22869.
+Any use of this module outside of that context may not have desirable outcomes.
 
-This repository holds supplementary Go cryptography packages.
-
-## Report Issues / Send Patches
-
-This repository uses Gerrit for code changes. To learn how to submit changes to
-this repository, see https://go.dev/doc/contribute.
-
-The git repository is https://go.googlesource.com/crypto.
-
-The main issue tracker for the crypto repository is located at
-https://go.dev/issues. Prefix your issue with "x/crypto:" in the
-subject line, so it is easy to find.
-
-Note that contributions to the cryptography package receive additional scrutiny
-due to their sensitive nature. Patches may take longer than normal to receive
-feedback.
+For more information or any questions please file an issue or contact:
+- @cevich
+- @tomsweeneyredhat
